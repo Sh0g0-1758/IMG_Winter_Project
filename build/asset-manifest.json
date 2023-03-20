@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/IMG-Winter-Assignment/static/css/main.26e1cae1.css",
+    "main.js": "/IMG-Winter-Assignment/static/js/main.73136622.js",
+    "static/js/787.28cb0dcd.chunk.js": "/IMG-Winter-Assignment/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/IMG-Winter-Assignment/index.html",
+    "static/media/front.svg": "/IMG-Winter-Assignment/static/media/front.3b38d184059a11034925.svg",
+    "main.26e1cae1.css.map": "/IMG-Winter-Assignment/static/css/main.26e1cae1.css.map",
+    "main.73136622.js.map": "/IMG-Winter-Assignment/static/js/main.73136622.js.map",
+    "787.28cb0dcd.chunk.js.map": "/IMG-Winter-Assignment/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26e1cae1.css",
+    "static/js/main.73136622.js"
+  ]
+}
