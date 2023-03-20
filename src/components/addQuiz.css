@@ -1,0 +1,49 @@
+#MainContForAddQuiz{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+
+    box-shadow: 0px 0px 20px black;
+
+    border-radius: 6px;
+
+    width: 900px;
+    height: 750px;
+
+    background-image: linear-gradient(to bottom right,
+            rgb(80, 194, 255),
+            rgb(18, 92, 252));
+}
+
+#ContForQuesForAddQuiz{
+    overflow-y: auto;
+    max-height: 500px;
+    /* border: 2px solid red; */
+    box-shadow: 0 0 10px black;
+}
+
+#CompleteQuestionWithQuestionNumberForAddQuiz{
+    /* border: 3px solid green; */
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+#ContOfRadioForAddQuiz{
+    margin-left: 90px;
+}
+
+#CreateForAddQuiz{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#ADDHeadingForAddQuiz{
+    margin-bottom:30px
+}

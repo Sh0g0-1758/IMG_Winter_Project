@@ -1,0 +1,86 @@
+#ContForHost {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+
+    box-shadow: 0px 0px 20px black;
+
+    border-radius: 6px;
+
+    width: 500px;
+    /* height: 500px; */
+
+    background-image: linear-gradient(to bottom right,
+            rgb(80, 194, 255),
+            rgb(18, 92, 252));
+
+}
+
+.ForHost {
+    box-shadow: 0 0 10px rgb(109, 109, 109);
+}
+
+.ForHost:focus {
+    box-shadow: 0 0 10px rgb(71, 71, 71);
+}
+
+#divFSliderForHost {
+    padding: 10px;
+    text-align: left;
+}
+
+#ContainerForSliderForHost {
+    text-align: left;
+    margin: 25px 0;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#divFSliderForHost:hover~#LabelForSliderForHost {
+    font-size: 14px;
+    padding-bottom: 3px;
+    color: rgb(146, 146, 146);
+}
+
+#HRwithORForHost {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 40px 0 20px;
+}
+
+#HRwithORSpanForHost {
+    /* background-image: linear-gradient(to right,#3b9ffe,#3a9dfe);  */
+    background-image: linear-gradient(to bottom right,#2a84fd,#2880fd);
+    padding: 0 10px;
+}
+
+#AddBTNForHost{
+    width: 50%;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 15px;
+  
+    /* background-color:; */
+  }
+
+#GenerateBTNForHost{
+    /* width: 50%;   */
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 15px;
+  
+    /* background-color:; */
+  }

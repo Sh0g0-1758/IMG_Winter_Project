@@ -1,0 +1,62 @@
+#LeaderBoardAllContentsDiv {
+  text-align: center;
+
+  border-radius: 5px;
+  padding: 60px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(80, 194, 255),
+    rgb(18, 92, 252)
+  );
+
+  box-shadow: 0 0 20px black;
+}
+
+#LeaderboardHeading {
+  font-size: 44px;
+  /* color: red; */
+  text-shadow: 0 0 5px white;
+}
+
+#LeaderboardTable {
+  margin: 60px auto;
+  font-size: 25px;
+  width: 600px;
+  /* border-spacing: 0 10px; */
+  border-collapse: separate;  
+
+  box-shadow: 0 0 10px rgb(71, 71, 71);
+  
+  text-shadow: 0 0 5px white;
+
+  /* color: white; */
+}
+
+#LeaderboardTable th,td {
+  text-align: center;
+  /* border-top: 2px solid black; */
+  padding: 10px;
+}
+
+#LeaderboardTable th {
+  /* background-color: rgb(255, 0, 81) ; */
+  background-color: rgb(27, 218, 103);
+}
+
+#LeaderboardTable tr {
+  /* background-color: rgb(53, 164, 238); */
+  /* background-image: linear-gradient(to bottom right,rgb(0, 115, 255), rgb(0, 43, 128)); */
+  background-color: rgb(255, 242, 0);
+}
+
+#LeaderboardTable tr:hover {
+  background-color: white;
+  color: purple;
+}

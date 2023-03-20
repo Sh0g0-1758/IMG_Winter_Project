@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 6px;
+  padding: 40px 50px 100px 50px;
+  width: 30%;
+
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+.div-for-labels {
+  margin: 20px 0px;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.textbox-for-loginpage {
+  display: block;
+  transition: 0.2s;
+  outline: none;
+  height: 38px;
+  width: 100%;
+  outline: 1px solid rgb(203, 203, 203);
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.textbox-for-loginpage:focus {
+  border: 2px solid #0d6efd;
+}
+
+#containerForLabels {
+  margin: 40px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+#login-btn {
+  background-color: #0d6efd;
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.outside-container {
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  width: 50%;
+  margin: 120px auto;
+  display: flex;
+}
+
+#leftSide {
+  flex: 50%;
+}
+
+#rightSide {
+  flex: 50%;
+  background-color: #0d6efd;
+  background-image: linear-gradient(to bottom right, #09c6f9, #045de9);
+  color: white;
+  text-align: center;
+}
+
+#RegisterBTN {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 40%;
+  text-transform: uppercase;
+}
+
+#rightSideContents {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#leftSideHeading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+#HRwithOR {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 40px 0 20px;
+}
+
+#HRwithORSpan {
+  background: white;
+  padding: 0 10px;
+}
+#SMC {
+  margin-top: 42px;
+  margin-bottom: 0px;
+}
+#Channel-IBTN {
+  color: black;
+  background-color: white;
+  border: 1px solid rgb(237, 235, 235);
+  /* box-shadow:0 6px 8px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 13px;
+  margin-right: 15px;
+
+  height: 42px;
+}
+#ChannelILogo {
+  height: auto;
+  width: 20px;
+}
